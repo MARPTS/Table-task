@@ -22,7 +22,7 @@ npm start
 
 Open `http://localhost:3000`, you will see the page !
 
-<img src="https://marpts.github.io/Table-task/src/tableDemo.png" width="600px" >
+<img src="https://marpts.github.io/Table-task/src/demo.gif" >
 
 
 ### Features
@@ -30,7 +30,6 @@ Open `http://localhost:3000`, you will see the page !
 - 2.Download data for xls file
 - 3.Search key to find data. can set more kind of key
 - 4.some key can rank up and down
- 
 - 5.Pagination
 <img src="https://marpts.github.io/Table-task/src/Pagination.png" width="200px" >
 
