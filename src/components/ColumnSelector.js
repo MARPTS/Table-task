@@ -22,7 +22,7 @@ render() {
     })
     return (
         <div className="ColumnSelector">
-                <CheckboxGroup options={plainOptions} defaultValue={['base_id']} onChange={this.handleToggleColumn} />
+                <CheckboxGroup options={plainOptions} defaultValue={['base_id', 'sr_ranking']} onChange={this.handleToggleColumn} />
                 {this.props.children}
          {/* {this.props.allColumns.map(column => (
             <div className="Selector">

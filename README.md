@@ -29,5 +29,8 @@ Open `http://localhost:3000`, you will see the page !
 - 1.Select title to view table
 - 2.Download data for xls file
 - 3.Search key to find data. can set more kind of key
-- 4.Pagination
+- 4.some key can rank up and down
+ 
+- 5.Pagination
 <img src="https://marpts.github.io/Table-task/src/Pagination.png" width="200px" >
+

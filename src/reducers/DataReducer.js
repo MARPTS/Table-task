@@ -10,7 +10,7 @@ const INITIAL_STATE = {
 
     data: getRandomData(5000),
     allColumns: ['base_id', 'mo_id', 'dyna_id', 'who_id', 'clo_id', 'company', 'country', 'address', 'sr_ranking', 'pp_ranking'],
-    selectedColumns: ['base_id']
+    selectedColumns: ['base_id', 'sr_ranking']
 }
 
 
