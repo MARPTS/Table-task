@@ -6,7 +6,7 @@ import DataTableContainer from './components/DataTableContainer.js';
 import ColumnSelectorContainer from './components/ColumnSelectorContainer.js';
 import JSONToExcelConvertor from './utils/Json2Excel';
 import './App.css';
-import { Layout, Button } from 'antd';
+import { Layout, Button, message } from 'antd';
 const {
   Header, Content,
 } = Layout;
@@ -17,6 +17,9 @@ const store = createStore(reducer);
 class App extends Component {
 
   downLoadData = () => {
+    if(!this.selects) {
+      message.error('you haven\'t select any data');
+    }
     JSONToExcelConvertor(this.selects, 'Data');
   }
 
