@@ -24,7 +24,6 @@ Open `http://localhost:3000`, you will see the page !
 
 <img src="https://marpts.github.io/Table-task/src/tableDemo.png" width="600px" >
 
-Demo https://marpts.github.io/Table-task/build/
 
 ### Features
 - 1.Select title to view table
