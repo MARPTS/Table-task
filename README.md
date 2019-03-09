@@ -21,7 +21,7 @@ npm start
 ```
 
 Open `http://localhost:3000`, you will see the page !
-[demo for gif](https://marpts.github.io/Table-task/src/tabledemo.gif)
+demo: https://marpts.github.io/Table-task/build/
 <img src="https://marpts.github.io/Table-task/src/tableDemo.png" >
 
 
